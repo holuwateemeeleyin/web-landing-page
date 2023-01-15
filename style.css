@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin:0;
+    background-color: rgb(233, 215, 233);
+    }
+    .container-1{
+        margin-left: 150px;
+    }
+    .navbar ul{
+        padding:0;
+        margin-top: 20px;
+    }
+    .navbar ul li{
+        display: inline-block;
+        margin: 0 8px;
+    }
+    .navbar a{
+        color:black;
+        font-size: 18px;
+        padding-right: 15px;
+        list-style: none;
+        text-decoration: none;
+    }
+    .navbar ul li a:hover{
+        display: block;
+        border: 1px solid grey;
+        background-color: rgb(247, 242, 242);
+        border-radius: 5px;
+        padding: 0;
+    }
+    .navbar-2 ul li{
+        display: inline-block;
+    }
+   .navbar .sign-up{
+    margin-left: 300px;
+   }
+   .navbar .sign-up a{
+    color: white;
+    border: 1px solid grey;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0;
+   }
+   .container{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 100px;
+   }
+   .word{
+    font-size: 50px;
+    min-height: 0px;
+    font-family:Geneva, sans-serif;
+   }
+   .contain{
+    display: flex;
+    margin-left: 160px;
+   }
+   .input{
+    width: 200px;
+    height: 25px;
+    margin-top: 30px;
+    padding-left: 10px;
+    background-color: white;
+    border: none;
+    border: 1px solid grey;
+   }
+  .contain .input-2{
+    width: 100px;
+    margin-top: 27px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    color: white;
+   }
+   .word-2{
+    margin-left: 150px;
+    margin-top: 50px;
+   }
+   .navbar-3 ul li{
+    display: inline-block;
+    margin: 0 8px;
+   }
+   .navbar-3 ul{
+    padding:0;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.navbar-3 ul li a{
+    text-decoration: none;
+    color:black;
+    opacity: 0.5;
+}
+.navbar-3 a:hover{
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.over-view  li a{
+    color: black;
+}
+.box-1{
+    border: 1px solid grey;
+    width: 90%;
+    margin: 0 auto;
+    height: 110px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+@media screen and (max-width:370px){
+    body{
+        width: 100%;
+        height: auto;
+        margin:0;
+        padding: 0;
+    }
+    .container-1{
+        margin-left:0;
+        display: inline;
+    }
+    .navbar a{
+        display:inline;
+        padding: 0;
+    }
+    .container{
+        margin-left:0;
+    }
+    .word{
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .word-2{
+        margin-left: 0;
+    }
+   .contain{
+        margin-left: 0;
+    }
+    .navbar-3{
+        margin-left: 0;
+    }
+}
